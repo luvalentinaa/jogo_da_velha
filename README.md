@@ -1,11 +1,14 @@
 # Jogo da Velha 🎲
 
-## Jogo da velha com botão para registrar os Players.
+## Jogo da velha com botão para registrar os Players, e background game over.
 
 ### Linguagens utilizadas 
--HTML
--CSS
--JS
+[
+- <img src="html.png">
+- <img src="css.png">
+- <img src="js.png"> 
+]
+
 [
 <img src="gif-game.gif">
 ]
