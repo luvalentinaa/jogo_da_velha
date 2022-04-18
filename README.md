@@ -1,6 +1,6 @@
 # Jogo da Velha 🎲
 
-## Jogo da velha com botão para registrar os Players, e background game over.
+## Jogo da velha com botão para registrar os Players.
 
 ### Linguagens utilizadas 
 [
