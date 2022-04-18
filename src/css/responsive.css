@@ -1,0 +1,40 @@
+@media (max-width:600px){
+  
+  .main-content{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  }
+  .area-players{
+    width: 70%;
+  }
+  .title {
+    font-size:18px;
+  }
+ 
+  .placar {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    font-size: 1rem;
+    }
+  .game {
+    width:400px;
+    max-width: 520px;
+    height: 400px;
+  }
+  .game > div {
+    border-radius: 2px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}

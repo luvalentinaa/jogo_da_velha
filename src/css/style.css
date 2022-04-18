@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Wallpoet', cursive;
+}
+.main-content{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background:linear-gradient(55deg, #b8ac67 , rgb(245, 240, 151) , #dbb77c);
+}
+.area-players{
+  width: 50%;
+  height: 89vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+  background: url(../img/game.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.title {
+  font-size: 25px;
+  text-align: center;
+  color: #4d1a91;
+  text-shadow: 8px 7px 5px #87b5fa;
+  margin-bottom: 100px;
+}
+.players{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align:center;
+}
+.player{
+  max-width:35% ;
+  height: 30px;
+  padding: 5px;
+  background-color: #0e0d0d;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius:10px;
+  font-family: 'Wallpoet', cursive;
+}
+.button-register{
+  width: 120px;
+  background-color: #fff;
+  font-family: 'Wallpoet', cursive;
+  font-size:18px;
+  padding: 5px;
+  margin: 0 20px;
+  border: none;
+  border-radius:10px;
+  box-shadow: 2px 2px 5px #000;
+  
+}
+.button-register:hover{
+  background-color: #111111fb;
+  color: #fff;
+}
+#register{
+  width: 70%;
+  height:80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px auto;
+  background-color: #1d0509ab;
+  box-shadow: 2px 10px 7px rgba(19, 18, 18, 0.336);
+  text-align: center;
+  flex-wrap: wrap;
+  border-radius:20px;
+}
+#register p {
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 2px 7px 5px rgb(61, 1, 1);
+  font-family: 'Wallpoet', cursive;
+}
+.placar {
+  background-image: url(../img/game-over.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  flex-direction: column;
+  max-width: 1290px;
+  min-width: 370px;
+  width: 500px;
+  height: 80vh;
+  font-weight: bold;
+  font-size: 5rem;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 12px 12px 8px #7c43024d;
+}
+p {
+  font-size: 30px;
+  color: rgb(80, 49, 4);
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.664);
+  font-family: 'Wallpoet', cursive;
+}
+.game {
+  width: 100%;
+  max-width: 500px;
+  min-width: 370px;
+  height: 80vh;
+  margin: 30px auto;
+  color: #fff;
+  text-shadow: 2px 10px 5px #0f0f0f;
+  border-radius: 10px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  background-image: url(../img/background-game.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+.game > div {
+  border-radius: 2px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
