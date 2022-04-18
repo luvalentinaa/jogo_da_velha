@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="shortcut icon" href="./src/img/background-game.png" type="image/x-icon">
+  </head>
+  <body>
+    <main class="main-content">
+      <div class="area-players">
+      <header class="title"><h1>Jogo da velha #</h1></header>
+    <div class="players">
+      <input type="text" name="player" class="player"  placeholder="Players">
+      <button class="button-register" onclick="namePlayers()">RegisteR PlayerS</button>
+      <div class="seguencia">
+
+      </div>
+    </div>
+    <div id="register"></div>
+  </div>
+    <div class="game"></div>
+  </main>
+    <script src="./src/js/tic-tac-toe.js"></script>
+    <script src="./src/js/players.js"></script>
+    <script>
+      tic_tac_toe.init(document.querySelector('.game'))
+      tic_tac_toe.start()
+    </script>
+  </body>
+</html>
