@@ -1,9 +1,9 @@
 # Jogo da Velha 🎲
 
 ## Jogo da velha com botão para registrar os Players.
+## <a href="https://luvalentinaa.github.io/jogo_da_velha/">🚀Acesse no Github Pages ...</a>
 
 ### Linguagens utilizadas 
-## <a href="https://luvalentinaa.github.io/jogo_da_velha/">🚀Acesse no Github Pages ...</a>
 
 [
 - <img src="html.png">
