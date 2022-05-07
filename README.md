@@ -1,15 +1,18 @@
+
 # Jogo da Velha 🎲
 
-## Jogo da velha com botão para registrar os Players.
-## <a href="https://luvalentinaa.github.io/jogo_da_velha/">🚀Acesse no Github Pages ...</a>
+## Uma aplicação de  Jogo da velha com botão para registrar os Players e gif de Game over.
+## <a href="https://luvalentinaa.github.io/jogo_da_velha/">Acesse no Github Pages 🔗</a>
 
-### Linguagens utilizadas 
+- # Visão geral
 
-[
-- <img src="html.png">
-- <img src="css.png">
-- <img src="js.png"> 
-]
+- # Construído com
+- Marcação HTML5 semântica
+- Propriedades personalizadas de CSS
+- Flexbox
+- Grade CSS
+
+
 
 [
 <img src="gif-game.gif">
